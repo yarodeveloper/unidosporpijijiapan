@@ -128,6 +128,11 @@
             color: #271310;
             font-weight: 700;
         }
+
+        /* Custom scrollbar for sidebar */
+        .custom-scrollbar::-webkit-scrollbar { width: 4px; }
+        .custom-scrollbar::-webkit-scrollbar-track { background: transparent; }
+        .custom-scrollbar::-webkit-scrollbar-thumb { background: rgba(39, 19, 16, 0.2); border-radius: 4px; }
     </style>
 </head>
 <body class="font-body-md text-body-md overflow-x-hidden">
