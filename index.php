@@ -3,7 +3,7 @@
 <!-- Hero Section -->
 <section class="relative w-full h-screen overflow-hidden flex flex-col justify-center items-center text-center">
     <div class="absolute inset-0 z-0">
-        <img class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD3TH-6UY2_PgmTDq9Wap9am9Vv_xCLhbdBL3hzclt106wEhvJRv67zjxdfZNITkjL-TNYLpHEgKVwP1jSWMJLxt0-aClipjeWaiq0pt_GOyM3cqXNbS-cMzGlU66n_Kbx3eDAA0grAXGyBCWBQfLxOwU9LihtcWkvRjzFe83bb_gd0YwH06i5AyeIJwfxGgfZ5LNyS0vL66Zd82uZe2rgsEToZQJa_XTucTFB0CQjB32EdOlAccY2rrdlHjz42xobwv6vtVHEgVUM"/>
+        <img class="w-full h-full object-cover" src="assets/victorianocampo.webp" alt="Victoriano Rizo"/>
         <div class="absolute inset-0 bg-primary/20"></div>
     </div>
     <div class="relative z-10 px-margin-mobile max-w-4xl">
@@ -121,7 +121,7 @@
             </div>
             <div class="relative aspect-square md:aspect-[4/5] overflow-hidden rounded-xl shadow-md">
                 <!-- Se requiere imagen real de Victoriano en asamblea -->
-                <img class="w-full h-full object-cover" src="https://images.unsplash.com/photo-1543269865-cbf427effbad?q=80&w=2070&auto=format&fit=crop" alt="Victoriano Rizo en asamblea comunal"/>
+                <img class="w-full h-full object-cover" src="assets/victorianorizo.webp" alt="Victoriano Rizo en asamblea comunal"/>
                 <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"></div>
                 <div class="absolute bottom-4 left-4 right-4 text-white">
                     <span class="bg-primary/90 px-3 py-1 rounded text-[10px] font-label-caps uppercase tracking-widest inline-block mb-2">Trabajo de Campo</span>
