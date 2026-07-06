@@ -139,17 +139,14 @@
 <!-- TopAppBar -->
 <header class="fixed bg-background w-full top-0 left-0 z-50 border-b border-primary/20 transition-all duration-300">
     <nav class="flex justify-between items-center w-full px-margin-mobile md:px-margin-desktop py-6 md:py-8 max-w-container-max mx-auto transition-all duration-300">
-        <div class="font-display-lg text-[24px] md:text-display-lg uppercase tracking-tighter text-primary leading-none">
-            VICTORIANO RIZO
+        <div class="font-display-lg text-[20px] md:text-[36px] uppercase tracking-tighter text-primary leading-none">
+            unidosporpijijiapan
         </div>
-        <div class="hidden md:flex gap-12 font-body-md text-body-md uppercase tracking-widest items-center">
-            <a class="text-on-surface-variant font-medium hover:text-primary transition-colors duration-300" href="#heritage">Heritage</a>
-            <a class="text-on-surface-variant font-medium hover:text-primary transition-colors duration-300" href="#land">The Land</a>
-            <a class="text-on-surface-variant font-medium hover:text-primary transition-colors duration-300" href="#legacy">Legacy</a>
-            <a class="text-on-surface-variant font-medium hover:text-primary transition-colors duration-300" href="#">Chronicles</a>
-        </div>
-        <button class="bg-primary text-on-primary px-6 py-3 font-label-caps uppercase text-label-caps cursor-pointer hover:bg-primary/90 active:opacity-70 transition-all">
-            Special Edition
-        </button>
+        <a href="#" class="inline-flex items-center gap-2 bg-primary text-on-primary px-6 py-3 font-label-caps uppercase text-label-caps cursor-pointer hover:bg-primary/90 active:opacity-70 transition-all">
+            <svg class="w-4 h-4 fill-current" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766 0-3.18-2.587-5.771-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.299.045-.677.063-1.092-.069-.252-.08-.575-.187-.988-.365-1.739-.751-2.874-2.522-2.961-2.638-.087-.117-.708-.941-.708-1.793 0-.852.448-1.271.607-1.441.159-.171.348-.215.463-.215.117 0 .231.001.332.005.109.004.258-.045.406.314.159.386.543 1.32.593 1.419.05.1.084.215.017.348-.067.133-.101.215-.203.332-.101.117-.213.262-.304.351-.101.1-.205.21-.087.415.117.205.521.861 1.116 1.392.769.687 1.414.9 1.617 1.001.203.1.323.084.443-.05.12-.133.521-.607.66-.812.139-.205.277-.171.463-.101.188.07 1.188.561 1.392.663.204.101.34.15.39.235.05.084.05.486-.094.891z"></path>
+            </svg>
+            Unirte al grupo
+        </a>
     </nav>
 </header>
