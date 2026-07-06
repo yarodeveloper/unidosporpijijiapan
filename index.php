@@ -159,8 +159,8 @@
             </div>
 
             <!-- Elemento 3: Visión -->
-            <div class="md:col-span-12 bg-secondary text-on-secondary p-8 md:p-10 rounded-2xl relative overflow-hidden shadow-sm flex flex-col md:flex-row items-center gap-8 mt-2">
-                <div class="flex-1 relative z-10">
+            <div class="md:col-span-12 bg-secondary text-on-secondary rounded-2xl relative overflow-hidden shadow-sm flex flex-col md:flex-row mt-2">
+                <div class="flex-1 p-8 md:p-10 relative z-10 flex flex-col justify-center">
                     <div class="w-12 h-12 bg-white/20 rounded-full flex items-center justify-center text-white mb-6">
                         <span class="material-symbols-outlined">visibility</span>
                     </div>
@@ -169,7 +169,9 @@
                         Su agenda prioriza los temas que realmente mueven la economía local: el campo, el agua y la infraestructura necesaria para que las familias de Pijijiapan tengan un futuro aquí.
                     </p>
                 </div>
-                <span class="material-symbols-outlined text-[150px] absolute right-0 bottom-0 text-white/10 -mb-8 -mr-8">landscape</span>
+                <div class="md:w-5/12 min-h-[300px] relative">
+                    <img class="absolute inset-0 w-full h-full object-cover" src="assets/victoriano_gober.webp" alt="Victoriano Rizo - Visión enfocada en resultados"/>
+                </div>
             </div>
         </section>
 
