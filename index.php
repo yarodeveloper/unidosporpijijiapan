@@ -98,107 +98,102 @@
     </aside>
 
     <!-- Main Content -->
-    <main class="lg:col-span-8 flex flex-col gap-24 order-1 lg:order-2">
+    <main class="lg:col-span-8 flex flex-col gap-16 order-1 lg:order-2">
         
-        <!-- Section 1: The Origin -->
-        <section class="grid md:grid-cols-12 gap-8 items-center" id="heritage">
-            <div class="md:col-span-5 order-2 md:order-1">
-                <div class="relative aspect-[4/5] overflow-hidden rounded-xl shadow-md">
-                    <img class="w-full h-full object-cover grayscale brightness-90 contrast-125" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCrefciyZyWtvFb3QXPfuR2Wekjum9tiGbSfmp1iLxmCxl7rZkNnTL3cSomZWMLhhSpJEZd4yuS1p85IdINZpTyqQA3Kj78MmHWjubBeo4fPCVbH1Q8miIsHaOejEaScZ7M9GHoJzbTr3R7zqL49o1HHdTpDzHYiCi0RJd666Jlb1jLmV8wX4eUXE6pAUOcCakVwhxIcFlLzDqA9zF9AXB9hvRzbZNASb9JqqXHdrt__rbH6iIfUvOvSYp3NiOSnQqpkwVD6XO7qmo"/>
-                </div>
-                <p class="font-label-caps text-[10px] mt-4 text-on-surface-variant uppercase tracking-widest text-center md:text-left">
-                    Fig 1.1 — La fuerza reside en la perseverancia.
+        <!-- Header de Sección -->
+        <div class="mb-2">
+            <span class="font-label-caps text-label-caps text-secondary uppercase block mb-4">Trayectoria y Gestión</span>
+            <h2 class="font-headline-md text-[36px] md:text-[48px] leading-tight text-primary">
+                La Gestión que se construye a ras de suelo
+            </h2>
+            <div class="divider-fine mt-8 w-full"></div>
+        </div>
+
+        <!-- Bloque A: Raíces (Estilo Nota de Autor) -->
+        <section class="grid md:grid-cols-2 gap-10 items-center">
+            <div class="font-body-lg text-[17px] md:text-[18px] text-on-surface-variant leading-relaxed space-y-6">
+                <p>
+                    <strong class="font-semibold text-primary">Víctor Rizo López</strong>, nacido un 6 de octubre de 1971 en Pijijiapan, ha entendido desde joven que el progreso no nace del escritorio, sino de la constancia.
+                </p>
+                <p>
+                    Su labor no es un ejercicio político tradicional; es un ejercicio de arraigo. Como Tesorero de los Bienes Comunales, su gestión ha estado marcada por una característica que hoy es poco común: la capacidad de escuchar directamente al productor, al ganadero y al vecino de la colonia, sin intermediarios.
                 </p>
             </div>
-            <div class="md:col-span-7 md:pl-8 order-1 md:order-2 mb-12 md:mb-0">
-                <span class="font-label-caps text-label-caps text-secondary uppercase mb-4 block">Capítulo I: El Origen</span>
-                <h2 class="font-headline-md text-[32px] md:text-headline-md leading-tight text-primary mb-8">Lecciones de la Tierra</h2>
-                <div class="divider-fine mb-10 w-full"></div>
-                <div class="font-body-lg text-body-lg text-on-surface-variant space-y-6 drop-cap">
-                    Victoriano Rizo no necesitó de grandes academias para forjar su destino. Habiendo concluido únicamente la educación primaria, su verdadera formación comenzó en los campos de Pijijiapan, donde el sol dicta el horario y la tierra no perdona el descuido.
-                    <br/><br/>
-                    A través de décadas de labor incansable, transformó la humildad de sus inicios en un imperio ganadero que hoy sostiene a cientos de familias. Su legado no se mide en documentos, sino en cada hectárea conquistada al cansancio y cada res que lleva la marca de la honestidad.
+            <div class="relative aspect-square md:aspect-[4/5] overflow-hidden rounded-xl shadow-md">
+                <!-- Se requiere imagen real de Victoriano en asamblea -->
+                <img class="w-full h-full object-cover" src="https://images.unsplash.com/photo-1543269865-cbf427effbad?q=80&w=2070&auto=format&fit=crop" alt="Victoriano Rizo en asamblea comunal"/>
+                <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"></div>
+                <div class="absolute bottom-4 left-4 right-4 text-white">
+                    <span class="bg-primary/90 px-3 py-1 rounded text-[10px] font-label-caps uppercase tracking-widest inline-block mb-2">Trabajo de Campo</span>
+                    <p class="font-body-md text-[13px] opacity-90">Escuchando las necesidades reales de nuestra comunidad.</p>
                 </div>
             </div>
         </section>
 
-        <!-- Full Width Quote (adapted for main column) -->
-        <section class="bg-primary-container py-16 text-center rounded-2xl overflow-hidden shadow-md">
-            <div class="max-w-3xl mx-auto px-6">
-                <span class="material-symbols-outlined text-on-primary-container text-4xl mb-6">format_quote</span>
-                <blockquote class="font-pull-quote text-[24px] md:text-pull-quote leading-relaxed text-on-primary-container italic mb-8 px-4">
-                    No hay secreto más grande que levantarse antes que el sol y no detenerse hasta que la tarea esté terminada. La educación te da palabras, pero el esfuerzo te da resultados.
+        <!-- Bloque B: Pilares de Confianza (Bento Grid) -->
+        <section class="grid md:grid-cols-12 gap-6 mt-4">
+            <div class="md:col-span-12 mb-2">
+                <h3 class="font-headline-sm text-[26px] text-primary">Pilares de Confianza</h3>
+            </div>
+            
+            <!-- Elemento 1: Transparencia -->
+            <div class="md:col-span-6 bg-surface-container p-8 rounded-2xl border border-primary/5 hover:border-primary/20 transition-all shadow-sm flex flex-col">
+                <div class="w-12 h-12 bg-white rounded-full flex items-center justify-center text-secondary mb-6 shadow-sm">
+                    <span class="material-symbols-outlined">account_balance</span>
+                </div>
+                <h4 class="font-headline-sm text-[20px] text-primary mb-3">Transparencia</h4>
+                <p class="font-body-md text-[15px] text-on-surface-variant leading-relaxed">
+                    Administración con cuentas claras. Su paso por los Bienes Comunales ha sido definido por la rectitud en el manejo de los recursos, un pilar fundamental para recuperar la confianza ciudadana.
+                </p>
+            </div>
+
+            <!-- Elemento 2: Cercanía -->
+            <div class="md:col-span-6 bg-surface-container p-8 rounded-2xl border border-primary/5 hover:border-primary/20 transition-all shadow-sm flex flex-col">
+                <div class="w-12 h-12 bg-white rounded-full flex items-center justify-center text-secondary mb-6 shadow-sm">
+                    <span class="material-symbols-outlined">handshake</span>
+                </div>
+                <h4 class="font-headline-sm text-[20px] text-primary mb-3">Cercanía</h4>
+                <p class="font-body-md text-[15px] text-on-surface-variant leading-relaxed">
+                    Más que un líder, un vecino. Su presencia constante en las asambleas y recorridos por el municipio le ha permitido conocer cada problemática desde su origen, no por reportes, sino por vivencia propia.
+                </p>
+            </div>
+
+            <!-- Elemento 3: Visión -->
+            <div class="md:col-span-12 bg-secondary text-on-secondary p-8 md:p-10 rounded-2xl relative overflow-hidden shadow-sm flex flex-col md:flex-row items-center gap-8 mt-2">
+                <div class="flex-1 relative z-10">
+                    <div class="w-12 h-12 bg-white/20 rounded-full flex items-center justify-center text-white mb-6">
+                        <span class="material-symbols-outlined">visibility</span>
+                    </div>
+                    <h4 class="font-headline-sm text-[24px] mb-3">Visión enfocada en resultados</h4>
+                    <p class="font-body-md text-[16px] text-white/90 leading-relaxed max-w-2xl">
+                        Su agenda prioriza los temas que realmente mueven la economía local: el campo, el agua y la infraestructura necesaria para que las familias de Pijijiapan tengan un futuro aquí.
+                    </p>
+                </div>
+                <span class="material-symbols-outlined text-[150px] absolute right-0 bottom-0 text-white/10 -mb-8 -mr-8">landscape</span>
+            </div>
+        </section>
+
+        <!-- Bloque C: El Factor Humano (Cita destacada) -->
+        <section class="bg-primary-container p-10 md:p-14 rounded-2xl text-center relative overflow-hidden shadow-sm mt-4">
+            <span class="material-symbols-outlined text-on-primary-container/20 text-[100px] absolute -top-4 -left-4 -z-0 rotate-180">format_quote</span>
+            <span class="material-symbols-outlined text-on-primary-container/20 text-[100px] absolute -bottom-4 -right-4 -z-0">format_quote</span>
+            <div class="relative z-10 max-w-3xl mx-auto">
+                <blockquote class="font-headline-sm text-[22px] md:text-[28px] leading-relaxed text-on-primary-container italic mb-8">
+                    "El verdadero valor de un proyecto en Pijijiapan no está en las grandes promesas, sino en la capacidad de tomar en cuenta a cada ciudadano. Estoy convencido de que, cuando caminamos unidos, la visión de uno solo se convierte en el bienestar de todos."
                 </blockquote>
-                <div class="w-16 h-px bg-on-primary-container/30 mx-auto"></div>
+                <div class="w-16 h-px bg-on-primary-container/30 mx-auto mb-6"></div>
+                <p class="font-headline-sm text-on-primary text-[20px]">— Victoriano Rizo López</p>
             </div>
         </section>
 
-        <!-- Section 2: The Landscape -->
-        <section class="overflow-hidden" id="land">
-            <div class="mb-10 flex flex-col md:flex-row md:items-end justify-between gap-6">
-                <div class="max-w-md">
-                    <span class="font-label-caps text-label-caps text-secondary uppercase mb-4 block">Capítulo II: El Entorno</span>
-                    <h2 class="font-headline-md text-[32px] md:text-headline-md leading-tight text-primary">Pijijiapan: El Corazón del Ganado</h2>
-                </div>
-                <p class="font-body-md text-body-md text-on-surface-variant max-w-xs">
-                    Un paisaje donde la bruma de la mañana se encuentra con las colinas esmeralda, definiendo la frontera entre el hombre y la naturaleza.
-                </p>
-            </div>
-            <div class="relative w-full">
-                <div class="relative aspect-[16/9] md:aspect-[21/9] overflow-hidden rounded-xl shadow-lg">
-                    <img class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCP_ZHgsjAm9Bt6SNS3_MrSewlOB_yBbjXIVB_6xKOndmAHEVmH1g0ed0wqtY_qweb1uYGkCRI1YbZxLNBcGPGPoJcvJH2ex0444rnFB6IR92tc-D_4y7Ado7hc67rLADLFC06Kdq1YEojotZuungWGcDyAfghhTOOzJ23Bw-epRlLzHwu2hTvvFMibecfuygmi4f71uIrlNDMqxX4-xF9Rk2RdTNLfJbXN3WzL-3owcD76IgtJ1GsK7LbP_09DA6PWAmCaE2aMbAI"/>
-                    <div class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"></div>
-                    <div class="absolute bottom-6 left-6 md:bottom-10 md:left-10">
-                        <h3 class="text-white font-headline-sm text-headline-sm italic">Stewardship of the Sierra Madre</h3>
-                    </div>
-                </div>
-            </div>
+        <!-- Botón de acción (Soft-CTA) -->
+        <section class="flex justify-center mt-8 mb-12">
+            <a href="#vision" class="inline-flex items-center gap-3 bg-surface border border-primary/20 text-primary px-8 py-4 font-label-caps uppercase text-[13px] tracking-widest hover:bg-primary/5 transition-all rounded shadow-sm group">
+                Conoce más sobre nuestra visión de municipio
+                <span class="material-symbols-outlined text-[18px] group-hover:translate-x-1 transition-transform">arrow_forward</span>
+            </a>
         </section>
-
-        <!-- Section 3: Leadership & Stats (Bento Grid) -->
-        <section class="" id="legacy">
-            <div class="grid md:grid-cols-12 gap-6">
-                <!-- Impact Card -->
-                <div class="md:col-span-4 bg-surface-container-high p-8 rounded-2xl flex flex-col justify-between shadow-sm">
-                    <div>
-                        <span class="font-label-caps text-label-caps text-secondary uppercase mb-6 block">Impacto Regional</span>
-                        <h4 class="font-headline-sm text-[20px] md:text-headline-sm mb-4 text-primary">Motor de Pijijiapan</h4>
-                        <p class="font-body-md text-sm text-on-surface-variant">
-                            Sostenibilidad económica para una comunidad que ha crecido al ritmo de sus ranchos.
-                        </p>
-                    </div>
-                    <div class="mt-8">
-                        <span class="block text-4xl md:text-5xl font-display-lg text-primary">500+</span>
-                        <span class="font-label-caps text-[10px] uppercase tracking-widest text-on-surface-variant">Empleos Directos e Indirectos</span>
-                    </div>
-                </div>
-                <!-- Leadership Card -->
-                <div class="md:col-span-8 bg-primary text-on-primary p-8 md:p-12 rounded-2xl relative overflow-hidden shadow-lg">
-                    <div class="relative z-10">
-                        <span class="font-label-caps text-label-caps text-on-primary-container uppercase mb-6 block">Liderazgo Moral</span>
-                        <h4 class="font-headline-md text-[28px] md:text-headline-md mb-8">Un Hombre de Palabra</h4>
-                        <div class="grid md:grid-cols-2 gap-8">
-                            <div class="space-y-4">
-                                <h5 class="font-label-caps text-[11px] md:text-label-caps uppercase text-on-primary-container">Ética Ganadera</h5>
-                                <p class="font-body-md text-sm text-white/80">
-                                    La calidad del ganado Victoriano Rizo es reconocida en todo el país, resultado de un manejo ético y profundo conocimiento del ciclo vital.
-                                </p>
-                            </div>
-                            <div class="space-y-4">
-                                <h5 class="font-label-caps text-[11px] md:text-label-caps uppercase text-on-primary-container">Visión Futura</h5>
-                                <p class="font-body-md text-sm text-white/80">
-                                    Preparando a la siguiente generación para entender que la tierra es un préstamo de sus hijos, no un regalo de sus padres.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="absolute -right-16 -bottom-16 opacity-[0.08]">
-                        <span class="material-symbols-outlined text-[200px] md:text-[250px]">agriculture</span>
-                    </div>
-                </div>
-            </div>
-        </section>
-
+        
     </main>
 </div>
 
