@@ -17,38 +17,77 @@
     </div>
 </section>
 
-<footer class="bg-surface-container-highest w-full mt-section-gap">
-    <div class="flex flex-col md:flex-row justify-between items-start w-full px-margin-mobile md:px-margin-desktop py-section-gap max-w-container-max mx-auto border-t border-primary/10">
-        <div class="mb-12 md:mb-0 max-w-xs">
-            <div class="font-headline-sm text-headline-sm text-primary mb-4">VICTORIANO RIZO</div>
-            <p class="font-body-md text-body-md text-on-surface-variant mb-8">
-                Custodio de la tierra, líder de hombres y pilar de la ganadería chiapaneca desde 1922.
-            </p>
-            <div class="flex gap-6">
-                <a class="text-primary hover:opacity-70 transition-all" href="#"><span class="material-symbols-outlined">public</span></a>
-                <a class="text-primary hover:opacity-70 transition-all" href="#"><span class="material-symbols-outlined">mail</span></a>
-                <a class="text-primary hover:opacity-70 transition-all" href="#"><span class="material-symbols-outlined">description</span></a>
+<footer class="bg-surface-container w-full mt-section-gap font-body-md text-[13px] md:text-[14px]">
+    <!-- Invitation box to participate -->
+    <div class="border-b border-primary/10 bg-surface-container-high">
+        <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop py-8 flex flex-col md:flex-row items-center justify-between gap-6">
+            <div class="text-on-surface-variant text-center md:text-left">
+                <h4 class="font-headline-sm text-[18px] text-primary mb-1">¿Tienes una idea para nuestro municipio?</h4>
+                <p class="font-body-md text-[14px]">Tu voz es fundamental para el desarrollo de Pijijiapan.</p>
             </div>
-        </div>
-        <div class="grid grid-cols-2 gap-12 md:gap-24">
-            <div class="flex flex-col gap-4">
-                <span class="font-label-caps text-label-caps uppercase text-primary">Explorar</span>
-                <a class="text-on-surface-variant hover:text-primary transition-opacity duration-200" href="#heritage">Archives</a>
-                <a class="text-on-surface-variant hover:text-primary transition-opacity duration-200" href="#land">Ranching Ethics</a>
-                <a class="text-on-surface-variant hover:text-primary transition-opacity duration-200" href="#">Contact</a>
-                <a class="text-on-surface-variant hover:text-primary transition-opacity duration-200" href="#">Legal</a>
-            </div>
-            <div class="flex flex-col gap-4">
-                <span class="font-label-caps text-label-caps uppercase text-primary">Sede</span>
-                <span class="text-on-surface-variant">Pijijiapan, Chiapas</span>
-                <span class="text-on-surface-variant">México</span>
-                <span class="text-on-surface-variant">+52 961 000 0000</span>
-            </div>
+            <a href="#participa" class="inline-block bg-primary text-on-primary px-6 py-3 font-label-caps uppercase text-[12px] tracking-widest hover:bg-primary/90 transition-colors rounded">
+                Cuéntanosla aquí
+            </a>
         </div>
     </div>
-    <div class="w-full py-8 border-t border-primary/5 px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto flex flex-col md:flex-row justify-between items-center text-on-surface-variant text-[12px] font-body-md">
-        <span>© 2024 The Rizo Estate. All rights reserved. Stewardship of the land since 1922.</span>
-        <span class="mt-4 md:mt-0 font-label-caps uppercase tracking-widest italic opacity-60">Curated Legacy Collection</span>
+
+    <!-- Main Footer Content -->
+    <div class="flex flex-col md:flex-row justify-between items-start w-full px-margin-mobile md:px-margin-desktop py-16 max-w-container-max mx-auto gap-12">
+        
+        <!-- Column 1: Identity -->
+        <div class="flex-1 max-w-sm">
+            <a href="index.php" class="block mb-6">
+                <img src="assets/logo.png" alt="Unidos por Pijijiapan" class="h-10 w-auto object-contain">
+            </a>
+            <p class="text-on-surface-variant mb-6 font-body-md leading-relaxed">
+                Un proyecto ciudadano dedicado a informar, promover y construir el futuro de Pijijiapan, Chiapas, a través de la transparencia y la participación de su gente.
+            </p>
+            <div class="flex gap-4">
+                <a href="#" class="w-10 h-10 rounded-full bg-primary/5 flex items-center justify-center text-primary hover:bg-primary hover:text-on-primary transition-all" aria-label="Facebook">
+                    <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24"><path d="M22.675 0h-21.35c-.732 0-1.325.593-1.325 1.325v21.351c0 .731.593 1.324 1.325 1.324h11.495v-9.294h-3.128v-3.622h3.128v-2.671c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.463.099 2.795.143v3.24l-1.918.001c-1.504 0-1.795.715-1.795 1.763v2.313h3.587l-.467 3.622h-3.12v9.293h6.116c.73 0 1.323-.593 1.323-1.325v-21.35c0-.732-.593-1.325-1.325-1.325z"/></svg>
+                </a>
+                <a href="#" class="w-10 h-10 rounded-full bg-primary/5 flex items-center justify-center text-primary hover:bg-primary hover:text-on-primary transition-all" aria-label="WhatsApp">
+                    <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24"><path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766 0-3.18-2.587-5.771-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.299.045-.677.063-1.092-.069-.252-.08-.575-.187-.988-.365-1.739-.751-2.874-2.522-2.961-2.638-.087-.117-.708-.941-.708-1.793 0-.852.448-1.271.607-1.441.159-.171.348-.215.463-.215.117 0 .231.001.332.005.109.004.258-.045.406.314.159.386.543 1.32.593 1.419.05.1.084.215.017.348-.067.133-.101.215-.203.332-.101.117-.213.262-.304.351-.101.1-.205.21-.087.415.117.205.521.861 1.116 1.392.769.687 1.414.9 1.617 1.001.203.1.323.084.443-.05.12-.133.521-.607.66-.812.139-.205.277-.171.463-.101.188.07 1.188.561 1.392.663.204.101.34.15.39.235.05.084.05.486-.094.891z"/></svg>
+                </a>
+                <a href="#" class="w-10 h-10 rounded-full bg-primary/5 flex items-center justify-center text-primary hover:bg-primary hover:text-on-primary transition-all" aria-label="YouTube">
+                    <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24"><path d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"/></svg>
+                </a>
+            </div>
+        </div>
+
+        <!-- Column 2: Navigation -->
+        <div class="flex-1 w-full md:w-auto grid grid-cols-1 sm:grid-cols-2 gap-8 font-label-caps text-on-surface-variant">
+            <div class="flex flex-col gap-4">
+                <span class="text-primary font-bold uppercase tracking-widest mb-2 border-b border-primary/10 pb-2">Secciones Clave</span>
+                <a class="hover:text-primary transition-colors" href="index.php">Inicio</a>
+                <a class="hover:text-primary transition-colors" href="#heritage">Crónicas</a>
+                <a class="hover:text-primary transition-colors" href="#">Pijijiapan al Día</a>
+                <a class="hover:text-primary transition-colors" href="#">Participa</a>
+            </div>
+            <div class="flex flex-col gap-4">
+                <span class="text-primary font-bold uppercase tracking-widest mb-2 border-b border-primary/10 pb-2">Legal / Info</span>
+                <a class="hover:text-primary transition-colors" href="#">Aviso de Privacidad</a>
+                <a class="hover:text-primary transition-colors" href="#">Contacto Institucional</a>
+            </div>
+        </div>
+
+        <!-- Column 3: Regional Context -->
+        <div class="flex-1 max-w-xs flex flex-col md:items-end text-left md:text-right">
+            <span class="font-headline-sm text-[20px] text-primary mb-2">Pijijiapan, Chiapas</span>
+            <p class="text-on-surface-variant italic mb-6">
+                "Sumando esfuerzos, transformando nuestra realidad."
+            </p>
+            <div class="mt-auto">
+                <span class="block text-primary/60 text-[11px] uppercase tracking-widest mb-1">Ubicación Estratégica</span>
+                <span class="block text-on-surface-variant">Costa de Chiapas, México</span>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Copyright -->
+    <div class="w-full py-6 border-t border-primary/10 px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto text-center text-on-surface-variant/70 text-[11px] uppercase tracking-widest">
+        <span>© 2026 Unidos por Pijijiapan. Todos los derechos reservados.</span>
     </div>
 </footer>
 
