@@ -15,26 +15,28 @@
         <p class="font-headline-sm text-headline-sm text-white/90 serif-italic max-w-2xl mx-auto">
             "La tierra no pide títulos, pide manos que sepan trabajarla."
         </p>
-        
-        <!-- Social Share Icons -->
-        <div class="mt-10 flex justify-center items-center gap-3">
-            <span class="text-white/60 text-[10px] font-label-caps uppercase tracking-widest mr-2">Compartir página:</span>
-            <a href="https://www.facebook.com/sharer/sharer.php?u=https://unidosporpijijiapan.mx" target="_blank" class="w-10 h-10 rounded-full border border-white/20 bg-white/5 flex items-center justify-center text-white hover:bg-white hover:text-primary transition-all" aria-label="Compartir en Facebook">
-                <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M22.675 0h-21.35c-.732 0-1.325.593-1.325 1.325v21.351c0 .731.593 1.324 1.325 1.324h11.495v-9.294h-3.128v-3.622h3.128v-2.671c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.463.099 2.795.143v3.24l-1.918.001c-1.504 0-1.795.715-1.795 1.763v2.313h3.587l-.467 3.622h-3.12v9.293h6.116c.73 0 1.323-.593 1.323-1.325v-21.35c0-.732-.593-1.325-1.325-1.325z"/></svg>
-            </a>
-            <a href="https://api.whatsapp.com/send?text=Te%20invito%20a%20conocer%20este%20proyecto:%20https://unidosporpijijiapan.mx" target="_blank" class="w-10 h-10 rounded-full border border-white/20 bg-white/5 flex items-center justify-center text-white hover:bg-white hover:text-primary transition-all" aria-label="Compartir en WhatsApp">
-                <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766 0-3.18-2.587-5.771-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.299.045-.677.063-1.092-.069-.252-.08-.575-.187-.988-.365-1.739-.751-2.874-2.522-2.961-2.638-.087-.117-.708-.941-.708-1.793 0-.852.448-1.271.607-1.441.159-.171.348-.215.463-.215.117 0 .231.001.332.005.109.004.258-.045.406.314.159.386.543 1.32.593 1.419.05.1.084.215.017.348-.067.133-.101.215-.203.332-.101.117-.213.262-.304.351-.101.1-.205.21-.087.415.117.205.521.861 1.116 1.392.769.687 1.414.9 1.617 1.001.203.1.323.084.443-.05.12-.133.521-.607.66-.812.139-.205.277-.171.463-.101.188.07 1.188.561 1.392.663.204.101.34.15.39.235.05.084.05.486-.094.891z"/></svg>
-            </a>
-            <a href="https://twitter.com/intent/tweet?text=Te%20invito%20a%20conocer%20este%20proyecto:%20https://unidosporpijijiapan.mx" target="_blank" class="w-10 h-10 rounded-full border border-white/20 bg-white/5 flex items-center justify-center text-white hover:bg-white hover:text-primary transition-all" aria-label="Compartir en X">
-                <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
-            </a>
-        </div>
     </div>
     <div class="absolute bottom-10 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 animate-bounce">
         <span class="font-label-caps text-[10px] uppercase text-white/70">Explorar</span>
         <span class="material-symbols-outlined text-white">keyboard_double_arrow_down</span>
     </div>
 </section>
+
+<!-- Social Share Bar (Below Hero) -->
+<div class="w-full bg-surface-container-high py-4 border-b border-primary/10">
+    <div class="max-w-[1400px] mx-auto px-margin-mobile md:px-margin-desktop flex justify-center md:justify-end items-center gap-4">
+        <span class="text-on-surface-variant text-[11px] font-label-caps uppercase tracking-widest">Compartir página:</span>
+        <a href="https://www.facebook.com/sharer/sharer.php?u=https://unidosporpijijiapan.mx" target="_blank" class="w-8 h-8 rounded-full border border-primary/20 bg-surface flex items-center justify-center text-primary hover:bg-primary hover:text-on-primary transition-all" aria-label="Compartir en Facebook">
+            <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M22.675 0h-21.35c-.732 0-1.325.593-1.325 1.325v21.351c0 .731.593 1.324 1.325 1.324h11.495v-9.294h-3.128v-3.622h3.128v-2.671c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.463.099 2.795.143v3.24l-1.918.001c-1.504 0-1.795.715-1.795 1.763v2.313h3.587l-.467 3.622h-3.12v9.293h6.116c.73 0 1.323-.593 1.323-1.325v-21.35c0-.732-.593-1.325-1.325-1.325z"/></svg>
+        </a>
+        <a href="https://api.whatsapp.com/send?text=Te%20invito%20a%20conocer%20este%20proyecto:%20https://unidosporpijijiapan.mx" target="_blank" class="w-8 h-8 rounded-full border border-primary/20 bg-surface flex items-center justify-center text-primary hover:bg-primary hover:text-on-primary transition-all" aria-label="Compartir en WhatsApp">
+            <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766 0-3.18-2.587-5.771-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.299.045-.677.063-1.092-.069-.252-.08-.575-.187-.988-.365-1.739-.751-2.874-2.522-2.961-2.638-.087-.117-.708-.941-.708-1.793 0-.852.448-1.271.607-1.441.159-.171.348-.215.463-.215.117 0 .231.001.332.005.109.004.258-.045.406.314.159.386.543 1.32.593 1.419.05.1.084.215.017.348-.067.133-.101.215-.203.332-.101.117-.213.262-.304.351-.101.1-.205.21-.087.415.117.205.521.861 1.116 1.392.769.687 1.414.9 1.617 1.001.203.1.323.084.443-.05.12-.133.521-.607.66-.812.139-.205.277-.171.463-.101.188.07 1.188.561 1.392.663.204.101.34.15.39.235.05.084.05.486-.094.891z"/></svg>
+        </a>
+        <a href="https://twitter.com/intent/tweet?text=Te%20invito%20a%20conocer%20este%20proyecto:%20https://unidosporpijijiapan.mx" target="_blank" class="w-8 h-8 rounded-full border border-primary/20 bg-surface flex items-center justify-center text-primary hover:bg-primary hover:text-on-primary transition-all" aria-label="Compartir en X">
+            <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+        </a>
+    </div>
+</div>
 
 <div class="max-w-[1400px] mx-auto px-margin-mobile md:px-margin-desktop py-section-gap grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
     
