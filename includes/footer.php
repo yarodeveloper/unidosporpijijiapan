@@ -26,73 +26,93 @@
             <div id="sector-carousel" class="flex overflow-x-auto gap-6 snap-x snap-mandatory hide-scrollbar pb-8 px-4 -mx-4 md:px-0 md:mx-0 scroll-smooth">
             
             <!-- Agricultura -->
-            <div class="min-w-[280px] md:min-w-[320px] flex-shrink-0 bg-surface/10 backdrop-blur-md border border-white/20 p-8 rounded-2xl snap-center text-left hover:bg-surface/20 transition-all flex flex-col group">
-                <div class="w-12 h-12 bg-white/20 rounded-full flex items-center justify-center text-white mb-6">
-                    <span class="material-symbols-outlined">agriculture</span>
+            <div class="relative min-w-[280px] md:min-w-[320px] flex-shrink-0 border border-white/20 p-8 rounded-2xl snap-center text-left hover:-translate-y-1 transition-all flex flex-col group overflow-hidden">
+                <img src="assets/sector_agricultura.webp" alt="Agricultura" class="absolute inset-0 w-full h-full object-cover z-0 opacity-40 group-hover:opacity-60 transition-opacity duration-500">
+                <div class="absolute inset-0 bg-gradient-to-t from-primary/90 via-primary/50 to-transparent z-0"></div>
+                <div class="relative z-10 flex flex-col h-full">
+                    <div class="w-12 h-12 bg-white/20 backdrop-blur rounded-full flex items-center justify-center text-white mb-6">
+                        <span class="material-symbols-outlined">agriculture</span>
+                    </div>
+                    <span class="font-label-caps text-[11px] text-white/70 uppercase tracking-widest block mb-2">Agricultura</span>
+                    <h3 class="font-headline-sm text-[22px] text-white mb-2">Fuerza de la tierra</h3>
+                    <p class="font-body-md text-[14px] text-white/80 mb-8 flex-grow">Nuestra base productiva</p>
+                    <a href="https://api.whatsapp.com/send?phone=529181227912&text=Hola,%20me%20gustar%C3%ADa%20unirme%20al%20sector%20Agricultura%20de%20Unidos%20por%20Pijijiapan." target="_blank" class="inline-flex items-center justify-between w-full border-t border-white/20 pt-4 text-white hover:text-white/80 font-label-caps uppercase text-[11px] tracking-widest transition-colors">
+                        Únete al sector
+                        <span class="material-symbols-outlined group-hover:translate-x-1 transition-transform text-[18px]">arrow_forward</span>
+                    </a>
                 </div>
-                <span class="font-label-caps text-[11px] text-white/70 uppercase tracking-widest block mb-2">Agricultura</span>
-                <h3 class="font-headline-sm text-[22px] text-white mb-2">Fuerza de la tierra</h3>
-                <p class="font-body-md text-[14px] text-white/80 mb-8 flex-grow">Nuestra base productiva</p>
-                <a href="https://api.whatsapp.com/send?phone=529181227912&text=Hola,%20me%20gustar%C3%ADa%20unirme%20al%20sector%20Agricultura%20de%20Unidos%20por%20Pijijiapan." target="_blank" class="inline-flex items-center justify-between w-full border-t border-white/20 pt-4 text-white hover:text-white/80 font-label-caps uppercase text-[11px] tracking-widest transition-colors">
-                    Únete al sector
-                    <span class="material-symbols-outlined group-hover:translate-x-1 transition-transform text-[18px]">arrow_forward</span>
-                </a>
             </div>
 
             <!-- Pesca -->
-            <div class="min-w-[280px] md:min-w-[320px] flex-shrink-0 bg-surface/10 backdrop-blur-md border border-white/20 p-8 rounded-2xl snap-center text-left hover:bg-surface/20 transition-all flex flex-col group">
-                <div class="w-12 h-12 bg-white/20 rounded-full flex items-center justify-center text-white mb-6">
-                    <span class="material-symbols-outlined">directions_boat</span>
+            <div class="relative min-w-[280px] md:min-w-[320px] flex-shrink-0 border border-white/20 p-8 rounded-2xl snap-center text-left hover:-translate-y-1 transition-all flex flex-col group overflow-hidden">
+                <img src="assets/sector_pesca.webp" alt="Pesca" class="absolute inset-0 w-full h-full object-cover z-0 opacity-40 group-hover:opacity-60 transition-opacity duration-500">
+                <div class="absolute inset-0 bg-gradient-to-t from-primary/90 via-primary/50 to-transparent z-0"></div>
+                <div class="relative z-10 flex flex-col h-full">
+                    <div class="w-12 h-12 bg-white/20 backdrop-blur rounded-full flex items-center justify-center text-white mb-6">
+                        <span class="material-symbols-outlined">directions_boat</span>
+                    </div>
+                    <span class="font-label-caps text-[11px] text-white/70 uppercase tracking-widest block mb-2">Pesca</span>
+                    <h3 class="font-headline-sm text-[22px] text-white mb-2">Riqueza costera</h3>
+                    <p class="font-body-md text-[14px] text-white/80 mb-8 flex-grow">Tradición y esfuerzo</p>
+                    <a href="https://api.whatsapp.com/send?phone=529181227912&text=Hola,%20me%20gustar%C3%ADa%20unirme%20al%20sector%20Pesquero%20de%20Unidos%20por%20Pijijiapan." target="_blank" class="inline-flex items-center justify-between w-full border-t border-white/20 pt-4 text-white hover:text-white/80 font-label-caps uppercase text-[11px] tracking-widest transition-colors">
+                        Únete al sector
+                        <span class="material-symbols-outlined group-hover:translate-x-1 transition-transform text-[18px]">arrow_forward</span>
+                    </a>
                 </div>
-                <span class="font-label-caps text-[11px] text-white/70 uppercase tracking-widest block mb-2">Pesca</span>
-                <h3 class="font-headline-sm text-[22px] text-white mb-2">Riqueza costera</h3>
-                <p class="font-body-md text-[14px] text-white/80 mb-8 flex-grow">Tradición y esfuerzo</p>
-                <a href="https://api.whatsapp.com/send?phone=529181227912&text=Hola,%20me%20gustar%C3%ADa%20unirme%20al%20sector%20Pesquero%20de%20Unidos%20por%20Pijijiapan." target="_blank" class="inline-flex items-center justify-between w-full border-t border-white/20 pt-4 text-white hover:text-white/80 font-label-caps uppercase text-[11px] tracking-widest transition-colors">
-                    Únete al sector
-                    <span class="material-symbols-outlined group-hover:translate-x-1 transition-transform text-[18px]">arrow_forward</span>
-                </a>
             </div>
 
             <!-- Ganadería -->
-            <div class="min-w-[280px] md:min-w-[320px] flex-shrink-0 bg-surface/10 backdrop-blur-md border border-white/20 p-8 rounded-2xl snap-center text-left hover:bg-surface/20 transition-all flex flex-col group">
-                <div class="w-12 h-12 bg-white/20 rounded-full flex items-center justify-center text-white mb-6">
-                    <span class="material-symbols-outlined">grass</span>
+            <div class="relative min-w-[280px] md:min-w-[320px] flex-shrink-0 border border-white/20 p-8 rounded-2xl snap-center text-left hover:-translate-y-1 transition-all flex flex-col group overflow-hidden">
+                <img src="assets/sector_ganaderia.webp" alt="Ganadería" class="absolute inset-0 w-full h-full object-cover z-0 opacity-40 group-hover:opacity-60 transition-opacity duration-500">
+                <div class="absolute inset-0 bg-gradient-to-t from-primary/90 via-primary/50 to-transparent z-0"></div>
+                <div class="relative z-10 flex flex-col h-full">
+                    <div class="w-12 h-12 bg-white/20 backdrop-blur rounded-full flex items-center justify-center text-white mb-6">
+                        <span class="material-symbols-outlined">grass</span>
+                    </div>
+                    <span class="font-label-caps text-[11px] text-white/70 uppercase tracking-widest block mb-2">Ganadería</span>
+                    <h3 class="font-headline-sm text-[22px] text-white mb-2">Motor regional</h3>
+                    <p class="font-body-md text-[14px] text-white/80 mb-8 flex-grow">Orgullo de Pijijiapan</p>
+                    <a href="https://api.whatsapp.com/send?phone=529181227912&text=Hola,%20me%20gustar%C3%ADa%20unirme%20al%20sector%20Ganadero%20de%20Unidos%20por%20Pijijiapan." target="_blank" class="inline-flex items-center justify-between w-full border-t border-white/20 pt-4 text-white hover:text-white/80 font-label-caps uppercase text-[11px] tracking-widest transition-colors">
+                        Únete al sector
+                        <span class="material-symbols-outlined group-hover:translate-x-1 transition-transform text-[18px]">arrow_forward</span>
+                    </a>
                 </div>
-                <span class="font-label-caps text-[11px] text-white/70 uppercase tracking-widest block mb-2">Ganadería</span>
-                <h3 class="font-headline-sm text-[22px] text-white mb-2">Motor regional</h3>
-                <p class="font-body-md text-[14px] text-white/80 mb-8 flex-grow">Orgullo de Pijijiapan</p>
-                <a href="https://api.whatsapp.com/send?phone=529181227912&text=Hola,%20me%20gustar%C3%ADa%20unirme%20al%20sector%20Ganadero%20de%20Unidos%20por%20Pijijiapan." target="_blank" class="inline-flex items-center justify-between w-full border-t border-white/20 pt-4 text-white hover:text-white/80 font-label-caps uppercase text-[11px] tracking-widest transition-colors">
-                    Únete al sector
-                    <span class="material-symbols-outlined group-hover:translate-x-1 transition-transform text-[18px]">arrow_forward</span>
-                </a>
             </div>
 
             <!-- Comercio -->
-            <div class="min-w-[280px] md:min-w-[320px] flex-shrink-0 bg-surface/10 backdrop-blur-md border border-white/20 p-8 rounded-2xl snap-center text-left hover:bg-surface/20 transition-all flex flex-col group">
-                <div class="w-12 h-12 bg-white/20 rounded-full flex items-center justify-center text-white mb-6">
-                    <span class="material-symbols-outlined">storefront</span>
+            <div class="relative min-w-[280px] md:min-w-[320px] flex-shrink-0 border border-white/20 p-8 rounded-2xl snap-center text-left hover:-translate-y-1 transition-all flex flex-col group overflow-hidden">
+                <img src="assets/sector_comercio.webp" alt="Comercio" class="absolute inset-0 w-full h-full object-cover z-0 opacity-40 group-hover:opacity-60 transition-opacity duration-500">
+                <div class="absolute inset-0 bg-gradient-to-t from-primary/90 via-primary/50 to-transparent z-0"></div>
+                <div class="relative z-10 flex flex-col h-full">
+                    <div class="w-12 h-12 bg-white/20 backdrop-blur rounded-full flex items-center justify-center text-white mb-6">
+                        <span class="material-symbols-outlined">storefront</span>
+                    </div>
+                    <span class="font-label-caps text-[11px] text-white/70 uppercase tracking-widest block mb-2">Comercio</span>
+                    <h3 class="font-headline-sm text-[22px] text-white mb-2">Motor local</h3>
+                    <p class="font-body-md text-[14px] text-white/80 mb-8 flex-grow">Creciendo juntos</p>
+                    <a href="https://api.whatsapp.com/send?phone=529181227912&text=Hola,%20me%20gustar%C3%ADa%20unirme%20al%20sector%20Comercio%20de%20Unidos%20por%20Pijijiapan." target="_blank" class="inline-flex items-center justify-between w-full border-t border-white/20 pt-4 text-white hover:text-white/80 font-label-caps uppercase text-[11px] tracking-widest transition-colors">
+                        Únete al sector
+                        <span class="material-symbols-outlined group-hover:translate-x-1 transition-transform text-[18px]">arrow_forward</span>
+                    </a>
                 </div>
-                <span class="font-label-caps text-[11px] text-white/70 uppercase tracking-widest block mb-2">Comercio</span>
-                <h3 class="font-headline-sm text-[22px] text-white mb-2">Motor local</h3>
-                <p class="font-body-md text-[14px] text-white/80 mb-8 flex-grow">Creciendo juntos</p>
-                <a href="https://api.whatsapp.com/send?phone=529181227912&text=Hola,%20me%20gustar%C3%ADa%20unirme%20al%20sector%20Comercio%20de%20Unidos%20por%20Pijijiapan." target="_blank" class="inline-flex items-center justify-between w-full border-t border-white/20 pt-4 text-white hover:text-white/80 font-label-caps uppercase text-[11px] tracking-widest transition-colors">
-                    Únete al sector
-                    <span class="material-symbols-outlined group-hover:translate-x-1 transition-transform text-[18px]">arrow_forward</span>
-                </a>
             </div>
 
             <!-- Cultura/Deporte -->
-            <div class="min-w-[280px] md:min-w-[320px] flex-shrink-0 bg-surface/10 backdrop-blur-md border border-white/20 p-8 rounded-2xl snap-center text-left hover:bg-surface/20 transition-all flex flex-col group">
-                <div class="w-12 h-12 bg-white/20 rounded-full flex items-center justify-center text-white mb-6">
-                    <span class="material-symbols-outlined">theater_comedy</span>
+            <div class="relative min-w-[280px] md:min-w-[320px] flex-shrink-0 border border-white/20 p-8 rounded-2xl snap-center text-left hover:-translate-y-1 transition-all flex flex-col group overflow-hidden">
+                <img src="assets/sector_cultura.webp" alt="Cultura y Deporte" class="absolute inset-0 w-full h-full object-cover z-0 opacity-40 group-hover:opacity-60 transition-opacity duration-500">
+                <div class="absolute inset-0 bg-gradient-to-t from-primary/90 via-primary/50 to-transparent z-0"></div>
+                <div class="relative z-10 flex flex-col h-full">
+                    <div class="w-12 h-12 bg-white/20 backdrop-blur rounded-full flex items-center justify-center text-white mb-6">
+                        <span class="material-symbols-outlined">theater_comedy</span>
+                    </div>
+                    <span class="font-label-caps text-[11px] text-white/70 uppercase tracking-widest block mb-2">Cultura/Deporte</span>
+                    <h3 class="font-headline-sm text-[22px] text-white mb-2">Nuestra esencia</h3>
+                    <p class="font-body-md text-[14px] text-white/80 mb-8 flex-grow">Identidad en movimiento</p>
+                    <a href="https://api.whatsapp.com/send?phone=529181227912&text=Hola,%20me%20gustar%C3%ADa%20unirme%20al%20sector%20Cultura%20y%20Deporte%20de%20Unidos%20por%20Pijijiapan." target="_blank" class="inline-flex items-center justify-between w-full border-t border-white/20 pt-4 text-white hover:text-white/80 font-label-caps uppercase text-[11px] tracking-widest transition-colors">
+                        Únete al sector
+                        <span class="material-symbols-outlined group-hover:translate-x-1 transition-transform text-[18px]">arrow_forward</span>
+                    </a>
                 </div>
-                <span class="font-label-caps text-[11px] text-white/70 uppercase tracking-widest block mb-2">Cultura/Deporte</span>
-                <h3 class="font-headline-sm text-[22px] text-white mb-2">Nuestra esencia</h3>
-                <p class="font-body-md text-[14px] text-white/80 mb-8 flex-grow">Identidad en movimiento</p>
-                <a href="https://api.whatsapp.com/send?phone=529181227912&text=Hola,%20me%20gustar%C3%ADa%20unirme%20al%20sector%20Cultura%20y%20Deporte%20de%20Unidos%20por%20Pijijiapan." target="_blank" class="inline-flex items-center justify-between w-full border-t border-white/20 pt-4 text-white hover:text-white/80 font-label-caps uppercase text-[11px] tracking-widest transition-colors">
-                    Únete al sector
-                    <span class="material-symbols-outlined group-hover:translate-x-1 transition-transform text-[18px]">arrow_forward</span>
-                </a>
             </div>
 
             </div>
