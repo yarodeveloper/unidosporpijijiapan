@@ -15,8 +15,15 @@
             <!-- Mantenemos un botón general opcional, o lo quitamos ya que habrá botones por tarjeta -->
         </div>
 
-        <!-- Carrusel de Sectores -->
-        <div class="flex overflow-x-auto gap-6 snap-x snap-mandatory hide-scrollbar pb-8 px-4 -mx-4 md:px-0 md:mx-0">
+        <!-- Contenedor del Carrusel con Controles -->
+        <div class="relative w-full group">
+            <!-- Botón Anterior -->
+            <button onclick="scrollCarousel('left')" class="absolute left-0 md:-left-6 top-[40%] -translate-y-1/2 w-12 h-12 bg-black/40 hover:bg-black/60 backdrop-blur-md rounded-full flex items-center justify-center text-white border border-white/20 z-20 opacity-0 group-hover:opacity-100 transition-all hidden md:flex shadow-lg cursor-pointer" aria-label="Anterior">
+                <span class="material-symbols-outlined">chevron_left</span>
+            </button>
+
+            <!-- Carrusel de Sectores -->
+            <div id="sector-carousel" class="flex overflow-x-auto gap-6 snap-x snap-mandatory hide-scrollbar pb-8 px-4 -mx-4 md:px-0 md:mx-0 scroll-smooth">
             
             <!-- Agricultura -->
             <div class="min-w-[280px] md:min-w-[320px] flex-shrink-0 bg-surface/10 backdrop-blur-md border border-white/20 p-8 rounded-2xl snap-center text-left hover:bg-surface/20 transition-all flex flex-col group">
@@ -88,6 +95,12 @@
                 </a>
             </div>
 
+            </div>
+
+            <!-- Botón Siguiente -->
+            <button onclick="scrollCarousel('right')" class="absolute right-0 md:-right-6 top-[40%] -translate-y-1/2 w-12 h-12 bg-black/40 hover:bg-black/60 backdrop-blur-md rounded-full flex items-center justify-center text-white border border-white/20 z-20 opacity-0 group-hover:opacity-100 transition-all hidden md:flex shadow-lg cursor-pointer" aria-label="Siguiente">
+                <span class="material-symbols-outlined">chevron_right</span>
+            </button>
         </div>
     </div>
 </section>
@@ -198,6 +211,19 @@
             }
         }
     });
+
+    // Carousel Navigation
+    function scrollCarousel(direction) {
+        const carousel = document.getElementById('sector-carousel');
+        if(carousel) {
+            const scrollAmount = 340; // width + gap
+            if(direction === 'left') {
+                carousel.scrollBy({ left: -scrollAmount, behavior: 'smooth' });
+            } else {
+                carousel.scrollBy({ left: scrollAmount, behavior: 'smooth' });
+            }
+        }
+    }
 </script>
 </body>
 </html>
