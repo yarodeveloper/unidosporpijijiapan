@@ -3,7 +3,10 @@
 <!-- Hero Section -->
 <section class="relative w-full h-screen overflow-hidden flex flex-col justify-end md:justify-center pb-24 md:pb-0">
     <div class="absolute inset-0 z-0">
-        <img class="w-full h-full object-cover object-top" src="assets/victorianocampo.webp" alt="Victoriano Rizo"/>
+        <!-- Imagen para Móvil -->
+        <img class="w-full h-full object-cover object-top md:hidden" src="assets/victorianocampo_movil.webp" alt="Victoriano Rizo"/>
+        <!-- Imagen para Escritorio -->
+        <img class="w-full h-full object-cover object-top hidden md:block" src="assets/victorianocampo.webp" alt="Victoriano Rizo"/>
         <!-- Gradiente adaptativo para móviles (abajo) y escritorio (derecha) -->
         <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/30 to-transparent md:hidden"></div>
         <div class="absolute inset-0 hidden md:block bg-gradient-to-r from-black/10 via-black/30 to-black/70"></div>
