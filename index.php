@@ -1,22 +1,24 @@
 <?php include 'includes/header.php'; ?>
 
 <!-- Hero Section -->
-<section class="relative w-full h-screen overflow-hidden flex flex-col justify-center items-center text-center">
+<section class="relative w-full h-screen overflow-hidden flex flex-col justify-center">
     <div class="absolute inset-0 z-0">
         <img class="w-full h-full object-cover object-top" src="assets/victorianocampo.webp" alt="Victoriano Rizo"/>
-        <div class="absolute inset-0 bg-primary/20"></div>
+        <div class="absolute inset-0 bg-gradient-to-r from-black/10 via-black/30 to-black/70"></div>
     </div>
-    <div class="relative z-10 px-margin-mobile max-w-4xl">
-        <span class="font-label-caps text-label-caps uppercase tracking-[0.3em] text-white/90 mb-6 block">Una Leyenda de Chiapas</span>
-        <h1 class="font-display-lg-mobile md:font-display-lg text-display-lg-mobile md:text-display-lg text-white mb-8">
-            Victoriano Rizo: <br/><span class="serif-italic">La Cultura del Esfuerzo</span>
-        </h1>
-        <div class="divider-fine bg-white/40 w-24 mx-auto mb-8"></div>
-        <p class="font-headline-sm text-headline-sm text-white/90 serif-italic max-w-2xl mx-auto">
-            "La tierra no pide títulos, pide manos que sepan trabajarla."
-        </p>
+    <div class="relative z-10 px-margin-mobile md:px-margin-desktop w-full max-w-container-max mx-auto flex flex-col items-end text-right mt-16 md:mt-0">
+        <div class="max-w-3xl">
+            <span class="font-label-caps text-label-caps uppercase tracking-[0.3em] text-white/90 mb-6 block">Una Leyenda de Chiapas</span>
+            <h1 class="font-display-lg-mobile md:font-display-lg text-display-lg-mobile md:text-display-lg text-white mb-8">
+                Victoriano Rizo: <br/><span class="serif-italic">La Cultura del Esfuerzo</span>
+            </h1>
+            <div class="divider-fine bg-white/40 w-24 ml-auto mb-8"></div>
+            <p class="font-headline-sm text-headline-sm text-white/90 serif-italic">
+                "La tierra no pide títulos, pide manos que sepan trabajarla."
+            </p>
+        </div>
     </div>
-    <div class="absolute bottom-10 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 animate-bounce">
+    <div class="absolute bottom-10 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 animate-bounce z-10">
         <span class="font-label-caps text-[10px] uppercase text-white/70">Explorar</span>
         <span class="material-symbols-outlined text-white">keyboard_double_arrow_down</span>
     </div>

@@ -1,10 +1,15 @@
 <!-- Footer Call to Action -->
-<section class="bg-primary-container py-24 text-on-primary">
-    <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop text-center">
+<section class="relative py-32 text-white overflow-hidden">
+    <div class="absolute inset-0 z-0">
+        <img src="assets/pijijiapan_comunidad.webp" alt="Comunidad Pijijiapan" class="w-full h-full object-cover">
+        <div class="absolute inset-0 bg-primary/80 mix-blend-multiply"></div>
+        <div class="absolute inset-0 bg-black/40"></div>
+    </div>
+    <div class="relative z-10 max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop text-center">
         <div class="max-w-2xl mx-auto">
-            <span class="font-label-caps text-label-caps text-on-primary-container uppercase tracking-[0.3em] mb-6 block">Conexión Directa</span>
+            <span class="font-label-caps text-label-caps text-white/80 uppercase tracking-[0.3em] mb-6 block">Conexión Directa</span>
             <h2 class="font-headline-md text-headline-md mb-6">Únase a la Comunidad</h2>
-            <p class="font-body-lg text-body-lg text-white/80 mb-10">
+            <p class="font-body-lg text-body-lg text-white/90 mb-10">
                 Forme parte de la comunidad. Reciba información exclusiva y actualizaciones sobre la ganadería, pesca y agricultura en Pijijiapan directamente en su dispositivo.
             </p>
             <a class="inline-flex items-center gap-4 bg-surface text-primary px-8 py-4 font-label-caps uppercase text-label-caps tracking-widest hover:opacity-90 transition-all" href="#">
