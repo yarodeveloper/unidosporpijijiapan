@@ -188,13 +188,7 @@
             </div>
         </section>
 
-        <!-- Botón de acción (Soft-CTA) -->
-        <section class="flex justify-center mt-8 mb-12">
-            <a href="#vision" class="inline-flex items-center gap-3 bg-surface border border-primary/20 text-primary px-8 py-4 font-label-caps uppercase text-[13px] tracking-widest hover:bg-primary/5 transition-all rounded shadow-sm group">
-                Conoce más sobre nuestra visión de municipio
-                <span class="material-symbols-outlined text-[18px] group-hover:translate-x-1 transition-transform">arrow_forward</span>
-            </a>
-        </section>
+
         
     </main>
 </div>

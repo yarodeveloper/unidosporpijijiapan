@@ -3,7 +3,10 @@
 <head>
     <meta charset="utf-8"/>
     <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-    <title>Victoriano Rizo: La Cultura del Esfuerzo</title>
+    <meta name="description" content="Página oficial de Victoriano Rizo López. Un proyecto ciudadano dedicado a informar, promover y construir el futuro de Pijijiapan, Chiapas, a través de la transparencia y la participación."/>
+    <meta name="keywords" content="Victoriano Rizo, Pijijiapan, Chiapas, Ganadería, Pesca, Agricultura, Política local, Transparencia, Proyecto ciudadano"/>
+    <meta name="author" content="Victoriano Rizo López"/>
+    <title>Victoriano Rizo: La Cultura del Esfuerzo | Unidos por Pijijiapan</title>
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&amp;family=Work+Sans:wght@400;600&amp;display=swap" rel="stylesheet"/>
     <!-- Material Symbols -->

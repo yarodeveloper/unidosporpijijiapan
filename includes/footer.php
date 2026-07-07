@@ -5,7 +5,7 @@
             <span class="font-label-caps text-label-caps text-on-primary-container uppercase tracking-[0.3em] mb-6 block">Conexión Directa</span>
             <h2 class="font-headline-md text-headline-md mb-6">Únase a la Comunidad</h2>
             <p class="font-body-lg text-body-lg text-white/80 mb-10">
-                Forme parte del legado. Reciba crónicas exclusivas y actualizaciones sobre la ganadería en Pijijiapan directamente en su dispositivo.
+                Forme parte de la comunidad. Reciba información exclusiva y actualizaciones sobre la ganadería, pesca y agricultura en Pijijiapan directamente en su dispositivo.
             </p>
             <a class="inline-flex items-center gap-4 bg-surface text-primary px-8 py-4 font-label-caps uppercase text-label-caps tracking-widest hover:opacity-90 transition-all" href="#">
                 <svg class="w-5 h-5 fill-current" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
