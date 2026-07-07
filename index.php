@@ -3,7 +3,7 @@
 <!-- Hero Section -->
 <section class="relative w-full h-screen overflow-hidden flex flex-col justify-center items-center text-center">
     <div class="absolute inset-0 z-0">
-        <img class="w-full h-full object-cover" src="assets/victorianocampo.webp" alt="Victoriano Rizo"/>
+        <img class="w-full h-full object-cover object-top" src="assets/victorianocampo.webp" alt="Victoriano Rizo"/>
         <div class="absolute inset-0 bg-primary/20"></div>
     </div>
     <div class="relative z-10 px-margin-mobile max-w-4xl">
