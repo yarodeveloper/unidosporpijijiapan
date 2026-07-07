@@ -3,10 +3,26 @@
 <head>
     <meta charset="utf-8"/>
     <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-    <meta name="description" content="Página oficial de Victoriano Rizo López. Un proyecto ciudadano dedicado a informar, promover y construir el futuro de Pijijiapan, Chiapas, a través de la transparencia y la participación."/>
-    <meta name="keywords" content="Victoriano Rizo, Pijijiapan, Chiapas, Ganadería, Pesca, Agricultura, Política local, Transparencia, Proyecto ciudadano"/>
+    
+    <!-- SEO Principal -->
+    <title>Unidos por Pijijiapan | Revista Digital de Actualidad y Liderazgo Comunitario</title>
+    <meta name="description" content="Portal informativo sobre Pijijiapan, Chiapas. Conoce la trayectoria de Victoriano Rizo López y mantente al día con infraestructura, campo y comunidad."/>
+    <meta name="keywords" content="Pijijiapan, Chiapas, Victoriano Rizo López, Desarrollo Comunitario, Bienes Comunales Pijijiapan, Infraestructura Pijijiapan, Noticias Pijijiapan."/>
     <meta name="author" content="Victoriano Rizo López"/>
-    <title>Victoriano Rizo: La Cultura del Esfuerzo | Unidos por Pijijiapan</title>
+    
+    <!-- Open Graph / Redes Sociales -->
+    <meta property="og:type" content="website"/>
+    <meta property="og:url" content="https://unidosporpijijiapan.mx/"/>
+    <meta property="og:title" content="Unidos por Pijijiapan | Revista Digital de Actualidad y Liderazgo Comunitario"/>
+    <meta property="og:description" content="Portal informativo sobre Pijijiapan, Chiapas. Conoce la trayectoria de Victoriano Rizo López y mantente al día con infraestructura, campo y comunidad."/>
+    <meta property="og:image" content="https://unidosporpijijiapan.mx/assets/victorianocampo.webp"/>
+    
+    <!-- Twitter Cards -->
+    <meta name="twitter:card" content="summary_large_image"/>
+    <meta name="twitter:url" content="https://unidosporpijijiapan.mx/"/>
+    <meta name="twitter:title" content="Unidos por Pijijiapan | Revista Digital de Actualidad y Liderazgo Comunitario"/>
+    <meta name="twitter:description" content="Portal informativo sobre Pijijiapan, Chiapas. Conoce la trayectoria de Victoriano Rizo López y mantente al día con infraestructura, campo y comunidad."/>
+    <meta name="twitter:image" content="https://unidosporpijijiapan.mx/assets/victorianocampo.webp"/>
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&amp;family=Work+Sans:wght@400;600&amp;display=swap" rel="stylesheet"/>
     <!-- Material Symbols -->
