@@ -12,7 +12,7 @@
             <p class="font-body-lg text-body-lg text-white/90 mb-10">
                 Forme parte de la comunidad. Reciba información exclusiva y actualizaciones sobre la ganadería, pesca y agricultura en Pijijiapan directamente en su dispositivo.
             </p>
-            <a class="inline-flex items-center gap-4 bg-surface text-primary px-8 py-4 font-label-caps uppercase text-label-caps tracking-widest hover:opacity-90 transition-all" href="#">
+            <a class="inline-flex items-center gap-4 bg-surface text-primary px-8 py-4 font-label-caps uppercase text-label-caps tracking-widest hover:opacity-90 transition-all" href="https://api.whatsapp.com/send?phone=529181227912&text=Hola,%20me%20gustaría%20unirme%20a%20la%20comunidad%20de%20Unidos%20por%20Pijijiapan." target="_blank">
                 <svg class="w-5 h-5 fill-current" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                     <path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766 0-3.18-2.587-5.771-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.299.045-.677.063-1.092-.069-.252-.08-.575-.187-.988-.365-1.739-.751-2.874-2.522-2.961-2.638-.087-.117-.708-.941-.708-1.793 0-.852.448-1.271.607-1.441.159-.171.348-.215.463-.215.117 0 .231.001.332.005.109.004.258-.045.406.314.159.386.543 1.32.593 1.419.05.1.084.215.017.348-.067.133-.101.215-.203.332-.101.117-.213.262-.304.351-.101.1-.205.21-.087.415.117.205.521.861 1.116 1.392.769.687 1.414.9 1.617 1.001.203.1.323.084.443-.05.12-.133.521-.607.66-.812.139-.205.277-.171.463-.101.188.07 1.188.561 1.392.663.204.101.34.15.39.235.05.084.05.486-.094.891z"></path>
                 </svg>
