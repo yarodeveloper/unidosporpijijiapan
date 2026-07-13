@@ -2,20 +2,27 @@
 
 <!-- Hero Section -->
 <section class="relative w-full h-screen overflow-hidden flex flex-col justify-end md:justify-center pb-24 md:pb-0">
-    <div class="absolute inset-0 z-0">
-        <!-- Imagen para Móvil -->
-        <img class="w-full h-full object-cover object-top md:hidden" src="assets/victorianocampo_movil.webp" alt="Victoriano Rizo"/>
-        <!-- Imagen para Escritorio -->
-        <img class="w-full h-full object-cover object-top hidden md:block" src="assets/victorianocampo.webp" alt="Victoriano Rizo"/>
+    <div class="absolute inset-0 z-0 select-none">
+        <!-- Slides del Carrusel -->
+        <div class="hero-slide absolute inset-0 opacity-100 transition-opacity duration-1000 ease-in-out">
+            <img class="w-full h-full object-cover object-top" src="assets/hero3.webp" alt="Pijijiapan"/>
+        </div>
+        <div class="hero-slide absolute inset-0 opacity-0 transition-opacity duration-1000 ease-in-out">
+            <img class="w-full h-full object-cover object-top" src="assets/hero2.webp" alt="Pijijiapan"/>
+        </div>
+        <div class="hero-slide absolute inset-0 opacity-0 transition-opacity duration-1000 ease-in-out">
+            <img class="w-full h-full object-cover object-top" src="assets/hero1.webp" alt="Pijijiapan"/>
+        </div>
         <!-- Gradiente adaptativo para móviles (abajo) y escritorio (derecha) -->
-        <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/30 to-transparent md:hidden"></div>
-        <div class="absolute inset-0 hidden md:block bg-gradient-to-r from-black/10 via-black/30 to-black/70"></div>
+        <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/30 to-transparent md:hidden z-10"></div>
+        <div class="absolute inset-0 hidden md:block bg-gradient-to-r from-black/10 via-black/30 to-black/70 z-10"></div>
     </div>
     <div class="relative z-10 px-margin-mobile md:px-margin-desktop w-full max-w-container-max mx-auto flex flex-col items-center md:items-end text-center md:text-right mt-16 md:mt-0">
         <div class="max-w-3xl">
-            <span class="font-label-caps text-[10px] md:text-label-caps uppercase tracking-[0.3em] text-white/90 mb-4 md:mb-6 block drop-shadow-md">Una Leyenda de Chiapas</span>
-            <h1 class="font-display-lg-mobile md:font-display-lg text-display-lg-mobile md:text-display-lg text-white mb-6 md:mb-8 drop-shadow-lg">
-                Victoriano Rizo: <br class="hidden md:block"/><span class="serif-italic">La Cultura del Esfuerzo</span>
+            <span class="font-label-caps text-[10px] md:text-label-caps uppercase tracking-[0.3em] text-white/90 mb-4 md:mb-6 block drop-shadow-md">Pijijiapan</span>
+            <h1 class="font-display-lg-mobile md:font-display-lg text-[32px] md:text-[56px] leading-[1.1] text-white mb-6 md:mb-8 drop-shadow-lg">
+                La Cultura del Esfuerzo. <br class="hidden md:block"/>
+                <span class="serif-italic font-normal text-[20px] md:text-[32px] text-white/90">Un proyecto impulsado por ciudadanos comprometidos con el futuro de Pijijiapan.</span>
             </h1>
             <div class="divider-fine bg-white/40 w-24 mx-auto md:ml-auto md:mr-0 mb-6 md:mb-8"></div>
             <p class="font-headline-sm text-headline-sm text-white/90 serif-italic drop-shadow-md px-4 md:px-0">
@@ -109,9 +116,9 @@
         
         <!-- Header de Sección -->
         <div class="mb-2">
-            <span class="font-label-caps text-label-caps text-secondary uppercase block mb-4">Trayectoria y Gestión</span>
+            <span class="font-label-caps text-label-caps text-secondary uppercase block mb-4">Gestión para todos</span>
             <h2 class="font-headline-md text-[36px] md:text-[48px] leading-tight text-primary">
-                La Gestión que se construye a ras de suelo
+                Hacia una gestión de soluciones a ras de suelo.
             </h2>
             <div class="divider-fine mt-8 w-full"></div>
         </div>
@@ -120,65 +127,173 @@
         <section class="grid md:grid-cols-2 gap-10 items-center">
             <div class="font-body-lg text-[17px] md:text-[18px] text-on-surface-variant leading-relaxed space-y-6">
                 <p>
-                    <strong class="font-semibold text-primary">Víctor Rizo López</strong>, nacido un 6 de octubre de 1971 en Pijijiapan, ha entendido desde joven que el progreso no nace del escritorio, sino de la constancia.
+                    La administración pública en Pijijiapan exige una nueva forma de entender la gestión: salir del escritorio y entrar en el territorio. El modelo que hoy impulsa el trabajo de los Bienes Comunales demuestra que la capacidad de escuchar directamente al productor, al ganadero y al vecino de la colonia es el único camino para resolver necesidades reales sin intermediarios.
                 </p>
                 <p>
-                    Su labor no es un ejercicio político tradicional; es un ejercicio de arraigo. Como Tesorero de los Bienes Comunales, su gestión ha estado marcada por una característica que hoy es poco común: la capacidad de escuchar directamente al productor, al ganadero y al vecino de la colonia, sin intermediarios.
+                    La constancia y el arraigo son los ejes que definen esta nueva etapa de servicio en nuestro municipio.
                 </p>
             </div>
             <div class="relative aspect-square md:aspect-[4/5] overflow-hidden rounded-xl shadow-md">
                 <!-- Se requiere imagen real de Victoriano en asamblea -->
-                <img class="w-full h-full object-cover" src="assets/victorianorizo.webp" alt="Victoriano Rizo en asamblea comunal"/>
+                <img class="w-full h-full object-cover" src="assets/pescadores.jpg" alt="Pescadores en Pijijiapan"/>
                 <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"></div>
                 <div class="absolute bottom-4 left-4 right-4 text-white">
-                    <span class="bg-primary/90 px-3 py-1 rounded text-[10px] font-label-caps uppercase tracking-widest inline-block mb-2">Trabajo de Campo</span>
+                    <span class="bg-primary/90 px-3 py-1 rounded text-[10px] font-label-caps uppercase tracking-widest inline-block mb-2">Apoyo a Pescadores</span>
                     <p class="font-body-md text-[13px] opacity-90">Escuchando las necesidades reales de nuestra comunidad.</p>
                 </div>
             </div>
         </section>
 
-        <!-- Bloque B: Pilares de Confianza (Bento Grid) -->
-        <section class="grid md:grid-cols-12 gap-6 mt-4">
-            <div class="md:col-span-12 mb-2">
-                <h3 class="font-headline-sm text-[26px] text-primary">Pilares de Confianza</h3>
+        <!-- Bloque B: Testimonios del trabajo comunitario -->
+        <section class="mt-4">
+            <div class="mb-6">
+                <h3 class="font-headline-sm text-[26px] text-primary">Testimonios del trabajo comunitario en nuestra región.</h3>
+                <div class="divider-fine mt-4 w-full"></div>
             </div>
-            
-            <!-- Elemento 1: Transparencia -->
-            <div class="md:col-span-6 bg-surface-container p-8 rounded-2xl border border-primary/5 hover:border-primary/20 transition-all shadow-sm flex flex-col">
-                <div class="w-12 h-12 bg-white rounded-full flex items-center justify-center text-secondary mb-6 shadow-sm">
-                    <span class="material-symbols-outlined">account_balance</span>
-                </div>
-                <h4 class="font-headline-sm text-[20px] text-primary mb-3">Transparencia</h4>
-                <p class="font-body-md text-[15px] text-on-surface-variant leading-relaxed">
-                    Administración con cuentas claras. Su paso por los Bienes Comunales ha sido definido por la rectitud en el manejo de los recursos, un pilar fundamental para recuperar la confianza ciudadana.
+            <div class="bg-surface-container p-8 md:p-10 rounded-2xl border border-primary/5 shadow-sm">
+                <p class="font-body-lg text-[17px] md:text-[18px] text-on-surface-variant leading-relaxed">
+                    En Pijijiapan, el progreso se construye a diario. En las asambleas y recorridos por nuestras comunidades, se hace evidente que cuando se trabaja con escucha activa, las soluciones son más efectivas. El ejercicio de gestión actual, desde los Bienes Comunales, pone al ciudadano al centro, priorizando el contacto directo para entender las urgencias de cada sector. Esta dinámica de trabajo es el reflejo del esfuerzo compartido que mueve a nuestro municipio.
                 </p>
             </div>
+        </section>
 
-            <!-- Elemento 2: Cercanía -->
-            <div class="md:col-span-6 bg-surface-container p-8 rounded-2xl border border-primary/5 hover:border-primary/20 transition-all shadow-sm flex flex-col">
-                <div class="w-12 h-12 bg-white rounded-full flex items-center justify-center text-secondary mb-6 shadow-sm">
-                    <span class="material-symbols-outlined">handshake</span>
+        <!-- Bloque Testimonios: Voces de nuestra gente -->
+        <section class="mt-8">
+            <div class="mb-6 flex justify-between items-end">
+                <div>
+                    <span class="font-label-caps text-label-caps text-secondary uppercase block mb-2">Comunidad</span>
+                    <h3 class="font-headline-sm text-[26px] text-primary">Voces de nuestra gente</h3>
                 </div>
-                <h4 class="font-headline-sm text-[20px] text-primary mb-3">Cercanía</h4>
-                <p class="font-body-md text-[15px] text-on-surface-variant leading-relaxed">
-                    Más que un líder, un vecino. Su presencia constante en las asambleas y recorridos por el municipio le ha permitido conocer cada problemática desde su origen, no por reportes, sino por vivencia propia.
-                </p>
+                <!-- Navigation buttons for desktop -->
+                <div class="hidden md:flex gap-2">
+                    <button onclick="scrollTestimonials('left')" class="w-10 h-10 rounded-full border border-primary/20 bg-surface flex items-center justify-center text-primary hover:bg-primary hover:text-on-primary transition-all cursor-pointer" aria-label="Anterior testimonio">
+                        <span class="material-symbols-outlined text-[20px]">chevron_left</span>
+                    </button>
+                    <button onclick="scrollTestimonials('right')" class="w-10 h-10 rounded-full border border-primary/20 bg-surface flex items-center justify-center text-primary hover:bg-primary hover:text-on-primary transition-all cursor-pointer" aria-label="Siguiente testimonio">
+                        <span class="material-symbols-outlined text-[20px]">chevron_right</span>
+                    </button>
+                </div>
             </div>
+            <div class="divider-fine mb-8 w-full"></div>
 
-            <!-- Elemento 3: Visión -->
-            <div class="md:col-span-12 bg-secondary text-on-secondary rounded-2xl relative overflow-hidden shadow-sm flex flex-col md:flex-row mt-2">
-                <div class="flex-1 p-8 md:p-10 relative z-10 flex flex-col justify-center">
-                    <div class="w-12 h-12 bg-white/20 rounded-full flex items-center justify-center text-white mb-6">
-                        <span class="material-symbols-outlined">visibility</span>
+            <!-- Carousel Wrapper -->
+            <div class="relative w-full">
+                <div id="testimonials-carousel" class="flex overflow-x-auto gap-6 snap-x snap-mandatory hide-scrollbar pb-6 px-4 -mx-4 md:px-0 md:mx-0 scroll-smooth">
+                    
+                    <!-- Testimonio 1: Ganadero -->
+                    <div class="relative min-w-[290px] md:min-w-[360px] max-w-[400px] flex-shrink-0 bg-surface-container p-6 rounded-2xl border border-primary/5 shadow-sm flex flex-col justify-between snap-center">
+                        <div class="flex-grow">
+                            <span class="material-symbols-outlined text-primary/10 text-[48px] block mb-2">format_quote</span>
+                            <p class="font-body-md text-[14px] md:text-[15px] text-on-surface-variant leading-relaxed italic mb-6">
+                                "Lo que más nos ha servido es ver que, por fin, se está tomando en cuenta la voz de quienes estamos en el campo. Cuando nos organizamos para gestionar la mejora de los caminos saca-cosechas, vimos que cuando hay apertura y transparencia, los apoyos llegan donde más se necesitan. Este proyecto nos ha demostrado que unidos logramos que las gestiones avancen."
+                            </p>
+                        </div>
+                        <div class="flex items-center gap-4 border-t border-primary/5 pt-4">
+                            <img class="w-20 h-20 rounded-full object-cover border border-secondary/20 shadow-sm" src="assets/testimonio_julian.png" alt="Don Julián" />
+                            <div>
+                                <h4 class="font-headline-sm text-[16px] text-primary">Don Julián</h4>
+                                <span class="text-[11px] font-label-caps uppercase tracking-wider text-secondary">Ganadero (Gestión colectiva)</span>
+                            </div>
+                        </div>
                     </div>
-                    <h4 class="font-headline-sm text-[24px] mb-3">Visión enfocada en resultados</h4>
-                    <p class="font-body-md text-[16px] text-white/90 leading-relaxed max-w-2xl">
-                        Su agenda prioriza los temas que realmente mueven la economía local: el campo, el agua y la infraestructura necesaria para que las familias de Pijijiapan tengan un futuro aquí.
-                    </p>
+
+                    <!-- Testimonio 2: Pesquero -->
+                    <div class="relative min-w-[290px] md:min-w-[360px] max-w-[400px] flex-shrink-0 bg-surface-container p-6 rounded-2xl border border-primary/5 shadow-sm flex flex-col justify-between snap-center">
+                        <div class="flex-grow">
+                            <span class="material-symbols-outlined text-primary/10 text-[48px] block mb-2">format_quote</span>
+                            <p class="font-body-md text-[14px] md:text-[15px] text-on-surface-variant leading-relaxed italic mb-6">
+                                "En la costa habíamos sentido por mucho tiempo que nuestras necesidades no eran prioridad. Lo que estamos construyendo ahora es diferente, porque por fin se están haciendo mesas de diálogo donde nosotros explicamos qué nos hace falta para trabajar mejor. Sentir que somos parte de la solución, y no solo un dato más, nos motiva a seguir adelante."
+                            </p>
+                        </div>
+                        <div class="flex items-center gap-4 border-t border-primary/5 pt-4">
+                            <img class="w-20 h-20 rounded-full object-cover border border-secondary/20 shadow-sm" src="assets/testimonio_martha.png" alt="Doña Martha" />
+                            <div>
+                                <h4 class="font-headline-sm text-[16px] text-primary">Doña Martha</h4>
+                                <span class="text-[11px] font-label-caps uppercase tracking-wider text-secondary">Cooperativa Pesquera (Escucha activa)</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Testimonio 3: Zona Urbana -->
+                    <div class="relative min-w-[290px] md:min-w-[360px] max-w-[400px] flex-shrink-0 bg-surface-container p-6 rounded-2xl border border-primary/5 shadow-sm flex flex-col justify-between snap-center">
+                        <div class="flex-grow">
+                            <span class="material-symbols-outlined text-primary/10 text-[48px] block mb-2">format_quote</span>
+                            <p class="font-body-md text-[14px] md:text-[15px] text-on-surface-variant leading-relaxed italic mb-6">
+                                "En la colonia estábamos cansados de promesas que nunca llegaban. Empezar a trabajar con cuentas claras y con transparencia hizo toda la diferencia. Ver que las obras de pavimentación por fin se ejecutan como se debe nos devuelve la esperanza de que sí se puede mejorar nuestro entorno cuando la gente se involucra y se hace un trabajo honesto."
+                            </p>
+                        </div>
+                        <div class="flex items-center gap-4 border-t border-primary/5 pt-4">
+                            <img class="w-20 h-20 rounded-full object-cover border border-secondary/20 shadow-sm" src="assets/testimonio_jorge.png" alt="Jorge" />
+                            <div>
+                                <h4 class="font-headline-sm text-[16px] text-primary">Jorge</h4>
+                                <span class="text-[11px] font-label-caps uppercase tracking-wider text-secondary">Vecino de la Col. Obrera (Resultados y transparencia)</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Testimonio 4: Agrícola -->
+                    <div class="relative min-w-[290px] md:min-w-[360px] max-w-[400px] flex-shrink-0 bg-surface-container p-6 rounded-2xl border border-primary/5 shadow-sm flex flex-col justify-between snap-center">
+                        <div class="flex-grow">
+                            <span class="material-symbols-outlined text-primary/10 text-[48px] block mb-2">format_quote</span>
+                            <p class="font-body-md text-[14px] md:text-[15px] text-on-surface-variant leading-relaxed italic mb-6">
+                                "Muchos productores estábamos trabajando cada quien por su lado, sufriendo las mismas dificultades. Al sumarnos a este proyecto, encontramos el respaldo para organizarnos y acceder a los programas que realmente nos ayudan con el maíz nativo. No es que nos regalen nada, es que nos dan el orden y la guía para que nuestro trabajo rinda frutos."
+                            </p>
+                        </div>
+                        <div class="flex items-center gap-4 border-t border-primary/5 pt-4">
+                            <img class="w-20 h-20 rounded-full object-cover border border-secondary/20 shadow-sm" src="assets/testimonio_erasmo.png" alt="Don Erasmo" />
+                            <div>
+                                <h4 class="font-headline-sm text-[16px] text-primary">Don Erasmo</h4>
+                                <span class="text-[11px] font-label-caps uppercase tracking-wider text-secondary">Productor agrícola (Apoyo organizado)</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Testimonio 5: Cultural/Deportivo -->
+                    <div class="relative min-w-[290px] md:min-w-[360px] max-w-[400px] flex-shrink-0 bg-surface-container p-6 rounded-2xl border border-primary/5 shadow-sm flex flex-col justify-between snap-center">
+                        <div class="flex-grow">
+                            <span class="material-symbols-outlined text-primary/10 text-[48px] block mb-2">format_quote</span>
+                            <p class="font-body-md text-[14px] md:text-[15px] text-on-surface-variant leading-relaxed italic mb-6">
+                                "Siempre hemos creído que el deporte y la cultura son la mejor forma de cuidar a nuestros jóvenes, pero a veces faltaban los espacios adecuados. Ver que ahora se prioriza el apoyo a estas actividades, reconociendo que son parte de nuestra identidad y no un lujo, nos alienta a seguir impulsando el talento local. Es un esfuerzo que se nota en cada cancha y en cada evento."
+                            </p>
+                        </div>
+                        <div class="flex items-center gap-4 border-t border-primary/5 pt-4">
+                            <img class="w-20 h-20 rounded-full object-cover border border-secondary/20 shadow-sm" src="assets/testimonio_leticia.png" alt="Leticia" />
+                            <div>
+                                <h4 class="font-headline-sm text-[16px] text-primary">Leticia</h4>
+                                <span class="text-[11px] font-label-caps uppercase tracking-wider text-secondary">Promotora cultural y deportiva (Identidad y futuro)</span>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
-                <div class="md:w-5/12 min-h-[300px] relative">
-                    <img class="absolute inset-0 w-full h-full object-cover" src="assets/victoriano_gober.webp" alt="Victoriano Rizo - Visión enfocada en resultados"/>
-                </div>
+            </div>
+
+            <!-- JavaScript for Testimonials Carousel -->
+            <script>
+                function scrollTestimonials(direction) {
+                    const carousel = document.getElementById('testimonials-carousel');
+                    if (carousel) {
+                        const cardWidth = 380; // card width + gap approx
+                        if (direction === 'left') {
+                            carousel.scrollBy({ left: -cardWidth, behavior: 'smooth' });
+                        } else {
+                            carousel.scrollBy({ left: cardWidth, behavior: 'smooth' });
+                        }
+                    }
+                }
+            </script>
+        </section>
+
+        <!-- Bloque C: Escuchar para transformar -->
+        <section class="mt-8">
+            <div class="mb-6">
+                <h3 class="font-headline-sm text-[26px] text-primary">Escuchar para transformar: Nuestra prioridad</h3>
+                <div class="divider-fine mt-4 w-full"></div>
+            </div>
+            <div class="bg-secondary/5 border-l-4 border-secondary p-8 rounded-r-2xl shadow-sm">
+                <p class="font-body-lg text-[17px] md:text-[18px] text-on-surface-variant leading-relaxed">
+                    La visión de desarrollo para Pijijiapan no puede ser lineal. Se requiere un ejercicio de escucha constante para traducir las necesidades de agricultores, pescadores y comerciantes en planes de acción concretos. Esta dinámica de trabajo a ras de suelo busca institucionalizar la participación, garantizando que cada voz en la colonia y el ejido sea parte fundamental de la ruta que trazamos para el futuro de nuestra comunidad.
+                </p>
             </div>
         </section>
 
@@ -187,14 +302,30 @@
             <span class="material-symbols-outlined text-on-primary-container/20 text-[100px] absolute -top-4 -left-4 -z-0 rotate-180">format_quote</span>
             <span class="material-symbols-outlined text-on-primary-container/20 text-[100px] absolute -bottom-4 -right-4 -z-0">format_quote</span>
             <div class="relative z-10 max-w-3xl mx-auto">
-                <blockquote class="font-headline-sm text-[22px] md:text-[28px] leading-relaxed text-on-primary-container italic mb-8">
+                <blockquote class="font-headline-sm text-[22px] md:text-[28px] leading-relaxed text-on-primary-container italic mb-2">
                     "El verdadero valor de un proyecto en Pijijiapan no está en las grandes promesas, sino en la capacidad de tomar en cuenta a cada ciudadano. Estoy convencido de que, cuando caminamos unidos, la visión de uno solo se convierte en el bienestar de todos."
                 </blockquote>
-                <div class="w-16 h-px bg-on-primary-container/30 mx-auto mb-6"></div>
-                <p class="font-headline-sm text-on-primary text-[20px]">— Victoriano Rizo López</p>
             </div>
         </section>
 
+        <!-- JavaScript para Carrusel Automático del Hero Background -->
+        <script>
+            document.addEventListener('DOMContentLoaded', () => {
+                let currentSlide = 0;
+                const slides = document.querySelectorAll('.hero-slide');
+                if (slides.length > 0) {
+                    setInterval(() => {
+                        slides[currentSlide].classList.remove('opacity-100');
+                        slides[currentSlide].classList.add('opacity-0');
+                        
+                        currentSlide = (currentSlide + 1) % slides.length;
+                        
+                        slides[currentSlide].classList.remove('opacity-0');
+                        slides[currentSlide].classList.add('opacity-100');
+                    }, 5000); // Cambia cada 5 segundos
+                }
+            });
+        </script>
 
         
     </main>
